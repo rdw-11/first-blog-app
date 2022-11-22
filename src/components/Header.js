@@ -3,8 +3,8 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 
 function Header(props) {
   return (
-    <header>
-      <Navbar className="header-color">
+    <div className="me-autoh">
+      <Navbar className="navbar">
         <Container>
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
@@ -13,7 +13,7 @@ function Header(props) {
           </Nav>
         </Container>
       </Navbar>
-    </header>
+    </div>
   );
 }
 

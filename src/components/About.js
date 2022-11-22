@@ -20,8 +20,8 @@ function About(props) {
         Hey guys my name is Reid. I am the owner of 11th hours sons. I'm
         currently working for Amazon and in my free time I like to do software
         development and blog. I built this blog from scratch using React JS. If
-        you'd like to reach out to me please see the link below otherwise enjoy
-        the content!
+        you'd like to reach out to me see the link below otherwise enjoy the
+        content!
       </p>
       <a
         href="https://www.linkedin.com/in/reid-williamson-83bb99b9/"

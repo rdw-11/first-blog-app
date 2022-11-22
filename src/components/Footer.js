@@ -1,11 +1,7 @@
 import React from "react";
 
 function Footer(props) {
-  return (
-    <div className="footer">
-      <footer>&copy; 2022 all rights reserved</footer>
-    </div>
-  );
+  return <div className="footer">&copy; 2022 all rights reserved</div>;
 }
 
 export default Footer;

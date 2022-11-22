@@ -1,25 +1,24 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
 import { Route, Routes } from "react-router-dom";
+import About from "./components/About.js";
+import AllPosts from "./components/AllPosts.js";
+import OnePost from "./components/OnePost.js";
+import SocialMedia from "./components/SocialMedia.js";
+import PageLayout from "./layout/PageLayout.js";
 import "./App.scss";
-import About from "./components/About";
-import SocialMedia from "./components/SocialMedia";
-import PageLayout from "./layout/PageLayout";
-import Home from "./pages/Home";
-import Post from "./pages/Post";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Routes>
-        <Route path="/" element={<PageLayout />}>
-          <Route index element={<Home />} />
-          <Route path="/post" element={<Post />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/socialmedia" element={<SocialMedia />} />
+        <Route element={<PageLayout />}>
+          <Route element={<AllPosts />} path="/" exact />
+          <Route element={<OnePost />} path="/:slug" />
+          <Route element={<About />} path="/about" />
+          <Route element={<SocialMedia />} path="/socialmedia" />
         </Route>
       </Routes>
     </div>
   );
 }
-
 export default App;
