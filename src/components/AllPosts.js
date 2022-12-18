@@ -28,7 +28,6 @@ export default function AllPosts() {
   return (
     <div className="main-div">
       <div className="container mx-auto">
-        <img src="https://i.imgur.com/rGrFyfw.png" alt="mylogo" />
         <h2 className="main-header">The Blog</h2>
         <hr />
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
