@@ -8,7 +8,7 @@ function Header(props) {
         <Container>
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/about">Abou</Nav.Link>
             <Nav.Link href="/socialmedia">Links</Nav.Link>
           </Nav>
         </Container>
