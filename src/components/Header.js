@@ -12,6 +12,7 @@ function Header(props) {
             <Nav.Link href="/socialmedia">Links</Nav.Link>
           </Nav>
         </Container>
+        <p>hello there!</p>
       </Navbar>
     </div>
   );
